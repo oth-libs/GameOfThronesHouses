@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">GameOfThronesHouses</string>
+
+    <string name="timeout_error">Timeout, please try again later</string>
+    <string name="house_detail_error">An error happened, please try again later</string>
+
+
+    <string name="house_name">Name</string>
+    <string name="house_region">Region</string>
+    <string name="house_words">Words</string>
+</resources>

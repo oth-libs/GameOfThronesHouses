@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:padding="20dp"
+        tools:context=".ui.HouseDetailActivity">
+
+    <TextView
+            android:id="@+id/houseNameHandler"
+            style="@style/TextHandler"
+            android:text="@string/house_name"/>
+
+    <TextView
+            android:id="@+id/houseName"
+            style="@style/TextValue"
+            android:layout_alignTop="@+id/houseNameHandler"
+            android:layout_toRightOf="@+id/houseNameHandler"
+            android:text="@string/house_name"/>
+
+
+    <TextView
+            android:id="@+id/houseRegionHandler"
+            android:layout_below="@+id/houseNameHandler"
+            style="@style/TextHandler"
+            android:text="@string/house_region"/>
+
+    <TextView
+            android:id="@+id/houseRegion"
+            style="@style/TextValue"
+            android:layout_alignTop="@+id/houseRegionHandler"
+            android:layout_toRightOf="@+id/houseRegionHandler"
+            android:text="@string/house_name"/>
+
+
+    <TextView
+            android:id="@+id/houseWordsHandler"
+            android:layout_below="@+id/houseRegionHandler"
+            style="@style/TextHandler"
+            android:text="@string/house_name"/>
+
+    <TextView
+            android:id="@+id/houseWords"
+            style="@style/TextValue"
+            android:layout_alignTop="@+id/houseWordsHandler"
+            android:layout_toRightOf="@+id/houseWordsHandler"
+            android:text="@string/house_name"/>
+
+</RelativeLayout>
